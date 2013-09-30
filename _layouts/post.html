@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div style="background-image: url({{page.header}}); width:1024px; height:350px;">
+	<h2>{{ page.title }}</h2>
+	<h4>{{ page.author }}</h4>
+</div>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+
+{{ include author.html }}
+</div>

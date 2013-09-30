@@ -1,0 +1,14 @@
+---
+layout: default
+title: Words Pictures Ideas' Blog
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+	    <div style="background-image: url({{post.header}});" class="blog-post" data-url="{{ post.url}}">
+	      <li><a href="/b/_site{{ post.url }}"><h2>{{ post.title  }}<h2><p>{{ post.author | capitalize }}</p></a></li>
+			</div>
+    {% endfor %}
+  </ul>
+</div>
