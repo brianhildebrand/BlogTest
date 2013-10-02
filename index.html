@@ -1,14 +1,20 @@
 ---
 layout: default
 title: Words Pictures Ideas' Blog
+prefix: "/b/_site"
 ---
-
-<div id="home">
-  <ul class="posts">
+<div class="container clear">
+	<div class="left grid12 float-item main-container">
     {% for post in site.posts %}
-	    <div style="background-image: url({{post.header}});" class="blog-post" data-url="{{ post.url}}">
-	      <li><a href="/b/_site{{ post.url }}"><h2>{{ post.title  }}<h2><p>{{ post.author | capitalize }}</p></a></li>
+	    <div class="blog-post">
+	    	<a href="{{page.prefix}}{{ post.url }}"><img src="{{ post.header }}"></a>
+	    	<div class="post-caption">
+		      <a href="{{page.prefix}}{{ post.url }}">
+		      	<h2 class="post-title post-meta">{{ post.title  }}</h2>
+		      	<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
+		      </a>
+		     </div>
 			</div>
     {% endfor %}
-  </ul>
+	</div>
 </div>

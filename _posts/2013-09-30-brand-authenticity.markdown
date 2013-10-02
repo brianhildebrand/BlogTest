@@ -3,8 +3,9 @@ layout: post
 title:  "Brand Authenticity and Corporate Social Responsibility (CSR)"
 date:   2013-09-30 12:55:00
 categories: branding
-author: steve
-header: "http://fpoimg.com/1024x350"
+author: Steve Barretto
+author-initials: sb
+header: "http://fpoimg.com/940x350"
 
 ---
 
@@ -35,5 +36,3 @@ It takes courage to uncover and reveal what is true, and even more courage to br
 
 *Author's Note: I believe that one day in the not-so-distant future, we will reflect upon the use of the term "branding" for our professional practice and we will find it odd that such a loaded term was acceptable common vernacular for such a discriminating field.
 
-Steve Bio:
-Steve has spent the better part of his career stewarding brand communications and experiences for leading organizations such as Apple, eBay, Levi Strauss & Co., Mattel, and PayPal to name a few. He's leveraged learned best practices to help underdog startups and mission-driven non-profits create meaningful change.
