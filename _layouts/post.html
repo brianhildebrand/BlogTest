@@ -1,12 +1,13 @@
 ---
 layout: default
+#prefix: "/b/_site"
 ---
 <div class="container clear">
 	<div class="left grid12 float-item main-container">
 		<img src="{{page.header}}" alt="page header graphic">
 		<div class="post-caption">
-    	<h2 class="post-title post-meta">{{ page.title }}</h2>
-    	<p  class="post-author post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
+    	<h2 class="post-title float-item post-meta">{{ page.title }}</h2>
+    	<p  id="direct-date" class="float-item post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
    </div>
 		<div class="post">
 			<div class="left grid7 float-item">
@@ -17,7 +18,7 @@ layout: default
 					<div class="portrait-container">
 						<div class="portrait">
 							<div class="face front">
-								<img width="150" height="150" src="/b/_site/img/people/{{page.author-initials}}.jpg" class="attachment-full wp-post-image" alt="{{page.author}}" title="{{page.author}}"/>
+								<img width="150" height="150" src="{{ page.prefix}}/img/people/{{page.author-initials}}.jpg" class="attachment-full wp-post-image" alt="{{page.author}}" title="{{page.author}}"/>
 							</div>
 							<div class="face back dark-grey">
 								<div class="name centered">{{page.author | Capitalize }}</div>

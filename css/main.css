@@ -748,7 +748,7 @@ footer {
   /*height:350px;*/
 
   position: relative;
-  margin-top: 0px;
+  margin-top: -50px;
 }
 .blog-post:first-of-type {
   margin-top: 0px;
@@ -760,6 +760,8 @@ footer {
   position: relative;
   top: -73px;
   background-color: #f6f6f6;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .blog-post .post-caption .post-title {
   margin-bottom: 10px;
@@ -767,6 +769,9 @@ footer {
 .blog-post .post-meta {
   text-align: left;
   padding-left: 20px;
+}
+#direct-date {
+  padding-bottom: 20px;
 }
 .wide-push1 {
   margin-left: 70px;
@@ -899,4 +904,7 @@ footer {
 #navigation-header h1 {
   text-align: right;
   padding-right: 20px;
+}
+.post-title {
+  margin-top: 20px;
 }

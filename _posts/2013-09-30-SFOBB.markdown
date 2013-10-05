@@ -2,7 +2,7 @@
 layout: post
 title:  "San Francisco-Oakland Bay Bridge"
 date:   2013-09-30 12:55:00
-categories: infrastructure communications
+categories: infrastructure
 author: Jordona Jackson
 author-initials: jj
 header: "http://fpoimg.com/940x350"

@@ -1,3 +1,0 @@
-#lessc --yui-compress css/_main.less > css/main.css
-lessc css/_main.less > css/main.css
-jekyll build --trace
