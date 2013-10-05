@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Words Pictures Ideas' Blog
-#prefix: "/b/_site"
+title: "Words Pictures Ideas' Blog"
+published: true
 ---
+
 <div class="container clear">
 	<div class="left grid12 float-item main-container">
     {% for post in site.posts %}
 	    <div class="blog-post">
-	    	<a href="{{page.prefix}}{{ post.url }}"><img src="{{ post.header }}"></a>
+	    	<a href="{{page.prefix}}{{ post.url }}"><img alt="pretty blog entry image" src="{{ post.header }}"></a>
 	    	<div class="post-caption">
 		      <a href="{{page.prefix}}{{ post.url }}">
 		      	<h2 class="post-title post-meta">{{ post.title  }}</h2>
