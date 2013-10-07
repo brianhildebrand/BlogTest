@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Best Practice #1: Caching Infrastructure"
-date:   2012-12-21 09:55:00
+title: "Best Practice #1: Caching Infrastructure"
+date: {}
 categories: technology
 author: Brian VanderZanden
-author-initials: bv
+"author-initials": bv
 header: "http://fpoimg.com/940x350"
+published: true
 ---
-
 
 A 1 second delay in page response can result in a 7% reduction in conversions.
 Source: [blog.kissmetrics.com/loading-time](http://blog.kissmetrics.com/loading-time)
@@ -25,6 +25,6 @@ Should that cache lookup miss, there is a lookup for the page written out to dis
 Should all of the above caches miss, the page is built by querying from a database. The resultant page gets propagated downstream and cached to dramatically speed up subsequent requests for that same resource.
 
 Caching Infrastructure Benefits:
-1) Multiple layers of data delivery acceleration between the actual content and the end-user
-2) Each layer increases the speed with which your site is delivered to the end-user
-3) The faster the page load time, the better the user experience
+1. Multiple layers of data delivery acceleration between the actual content and the end-user
+2. Each layer increases the speed with which your site is delivered to the end-user
+3. The faster the page load time, the better the user experience
