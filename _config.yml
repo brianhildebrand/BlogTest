@@ -1,5 +1,5 @@
 name: "Words Pictures Ideas' Blog"
 markdown: redcarpet
 pygments: false
-permalink: /:categories/:title/ 
+#permalink: /:categories/:title/ 
 
