@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Brand Authenticity and Corporate Social Responsibility (CSR)"
-date:   2013-09-30 12:55:00
+title: Brand Authenticity and Corporate Social Responsibility (CSR)
+date: {}
 categories: branding
 author: Steve Barretto
-author-initials: sb
+"author-initials": sb
 header: "http://fpoimg.com/940x350"
-
+published: true
 ---
 
 After spending the majority of my career helping brands differentiate themselves with marketing strategies based on features and benefits, I find myself wanting to uncover brand authenticity first and foremost, seeking core values that can be understood through the lens of corporate social responsibility and supported by measurable results.
@@ -16,8 +16,7 @@ For this article's purpose, I'm defining sustainability as organizational longev
 Less is more
 An obvious benefit to the most traditional of the triple bottom lines (i.e. financial, social, and environmental) is the cost savings associated with the sustainable practice of using less. This effort alone can foster a culture of innovation, and with marketing, can stretch to customer and employee engagement programs. It also presents an opportunity to differentiate your brand-small effort, big upside.
 
-LARGE CALL-OUT TEXT:
-Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers.
+###Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers.
 
 What are my core values?
 It's a hard question to answer as an individual, even more difficult as an entity with a board of directors, an executive staff, and stakeholders. Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers. That may be true in "art" where a false belief or idea can be reinterpreted, but the science of branding won't tolerate mythology. 
@@ -35,4 +34,3 @@ The journey is the reward
 It takes courage to uncover and reveal what is true, and even more courage to broadcast your truths to the public. The inevitable misstep is certain, how we recover is the measure of our growth, progress and authenticity.
 
 *Author's Note: I believe that one day in the not-so-distant future, we will reflect upon the use of the term "branding" for our professional practice and we will find it odd that such a loaded term was acceptable common vernacular for such a discriminating field.
-
