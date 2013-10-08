@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "San Francisco-Oakland Bay Bridge"
-date:   2013-09-30 12:55:00
+title: "San Francisco-Oakland Bay Bridge"
+date: {}
 categories: infrastructure
 author: Jordona Jackson
-author-initials: jj
-header: "http://fpoimg.com/940x350"
+"author-initials": jj
+header: "http://placekitten.com/940/350"
+published: true
 ---
 
 Well the San Francisco-Oakland Bay Bridge has finally opened. Yes, it took far too long to build and yes, it was really expensive. But achieving seismic safety on such a massive project was a hard fought victory and, though it wasn't perfect, one we can be proud of. After all, we gained more than a safe bridge - we learned new best practices in engineering and construction, we developed cutting-edge environmental mitigation technology, and we figured out how to navigate around political landmines, mostly missing them but sometimes stepping into them with such oomph that it made national news. As a communications team, though, we discovered a new way of doing our job.
