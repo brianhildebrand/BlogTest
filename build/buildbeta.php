@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   echo "<h4>Detailed output below:</h4>";
   echo "<pre>";
   // $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; /usr/bin/jekyll build -s /var/www/vhosts/wpibeta.org/subdomains/b/httpdocs/b --trace', $return);
-  $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; ./b/httpdocs/b/build/build', $return);
+  $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; ./b/httpdocs/b/build/build deploy', $return);
   echo $output . "</pre>";
 
   $message = $return;
