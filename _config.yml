@@ -2,4 +2,3 @@ name: "Words Pictures Ideas' Blog"
 markdown: redcarpet
 pygments: false
 permalink: /:categories/:title/ 
-destination: /var/www/vhosts/wpibeta.org/subdomains/b/httpdocs/b/_site
