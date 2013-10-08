@@ -22,12 +22,12 @@
   $message = '';
   $headers = 'From: buildrobot@baybridgetoday.com' . "\r\n" . 'Reply-To: dev@wordspicturesideas.com' . "\r\n";
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST') {
   echo "</div></div><div class='row'><div class='span10'>";
   echo "<h4>Detailed output below:</h4>";
   echo "<pre>";
   // $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; /usr/bin/jekyll build -s /var/www/vhosts/wpibeta.org/subdomains/b/httpdocs/b --trace', $return);
-  $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; ./b/httpdocs/b/build/build deploy', $return);
+  $output = passthru('export HOME=/var/www/vhosts/wpibeta.org/subdomains/b; /var/www/vhosts/wpibeta.org/subdomains/b/httpdocs/b/build/build deploy', $return);
   echo $output . "</pre>";
 
   $message = $return;
