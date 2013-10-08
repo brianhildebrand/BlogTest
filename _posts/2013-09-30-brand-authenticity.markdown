@@ -16,7 +16,7 @@ For this article's purpose, I'm defining sustainability as organizational longev
 Less is more
 An obvious benefit to the most traditional of the triple bottom lines (i.e. financial, social, and environmental) is the cost savings associated with the sustainable practice of using less. This effort alone can foster a culture of innovation, and with marketing, can stretch to customer and employee engagement programs. It also presents an opportunity to differentiate your brand-small effort, big upside.
 
-###Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers.
+> Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers.
 
 What are my core values?
 It's a hard question to answer as an individual, even more difficult as an entity with a board of directors, an executive staff, and stakeholders. Joseph Campbell, famous American mythologist, writer and lecturer, believed that artists are a culture's myth-makers. That may be true in "art" where a false belief or idea can be reinterpreted, but the science of branding won't tolerate mythology. 
