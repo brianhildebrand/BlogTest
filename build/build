@@ -13,7 +13,7 @@ jekyll build --trace
 if [ "$1" == "deploy" ] 
 	then
 	echo "Deploying to S3" 
-	s3cmd sync  --recursive --delete-removed --acl-public ~/httpdocs/b/_site/ s3://blog.wordspicturesideas.com
+	s3cmd put  --recursive --delete-removed --acl-public ~/httpdocs/b/_site/ s3://blog.wordspicturesideas.com
 fi
 
 exit 23
