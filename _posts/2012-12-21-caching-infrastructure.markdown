@@ -5,7 +5,7 @@ date: {}
 categories: technology
 author: Brian VanderZanden
 "author-initials": bv
-header: "http://fpoimg.com/940x350"
+header: "http://placekitten.com/940/350"
 published: true
 ---
 
@@ -14,7 +14,7 @@ Source: [blog.kissmetrics.com/loading-time](http://blog.kissmetrics.com/loading-
 
 At Words Pictures Ideas we apply caching infrastructure best practices to our clients' websites enhancing, optimizing, monitoring and measuring ensuring that with each visit, the user experience is fluid. Ultimately, our rigor leads to a higher success rate in achieving clients' goals and objectives.
 
-The quickest data request is no request. Common assets should only be downloaded once, then stored long term in a user's cache. Javascript functionality libraries, like jQuery, are served from a common location.
+The quickest data request is no request. Common assets should only be downloaded once, then stored long term in a user's cache. Javascript functionality libraries, like jQuery, are served from a common location...
 
 Static assets, like movies and images, are delivered to edge locations around the world geographically closer to the user, resulting in fewer network hops for the data to traverse. This step removes around 80% of the number of requests from the originating server, freeing it up to handle the remaining requests more quickly.
 
