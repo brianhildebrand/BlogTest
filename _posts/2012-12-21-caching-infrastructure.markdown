@@ -28,5 +28,3 @@ Caching Infrastructure Benefits:
 1. Multiple layers of data delivery acceleration between the actual content and the end-user
 2. Each layer increases the speed with which your site is delivered to the end-user
 3. The faster the page load time, the better the user experience
-
-Fewer kittens...
