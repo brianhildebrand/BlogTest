@@ -9,7 +9,7 @@ header: "http://placekitten.com/940/350"
 published: true
 ---
 
-A 1 second delay in page response can result in a 7% reduction in conversions.
+A one second delay in page response can result in a 7% reduction in conversions.
 Source: [blog.kissmetrics.com/loading-time](http://blog.kissmetrics.com/loading-time)
 
 At Words Pictures Ideas we apply caching infrastructure best practices to our clients' websites enhancing, optimizing, monitoring and measuring ensuring that with each visit, the user experience is fluid. Ultimately, our rigor leads to a higher success rate in achieving clients' goals and objectives.
