@@ -11,6 +11,7 @@ html {
 }
 body {
   font-family: "proxima-nova", helvetica, sans-serif;
+  font-size: 14px;
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -27,9 +28,8 @@ h1 {
 }
 h2 {
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-size: 24px;
   font-weight: 600;
 }
 a {
@@ -41,7 +41,6 @@ a[href^=tel] {
 }
 p {
   margin-top: 0;
-  font-size: .9em;
   line-height: 1.5em;
 }
 li {
@@ -318,6 +317,7 @@ textarea:focus {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  outline: green dashed;
 }
 .centered {
   text-align: center;
@@ -742,7 +742,7 @@ footer {
   text-align: center;
   margin: 100px 0;
 }
-.blog-post {
+.blog-index {
   /*width:940px;*/
 
   /*height:350px;*/
@@ -750,34 +750,65 @@ footer {
   position: relative;
   margin-top: -50px;
 }
-.blog-post:first-of-type {
+.blog-index:first-of-type {
   margin-top: 0px;
 }
-.blog-post img {
+.blog-index a {
+  color: #ffffff;
+}
+.blog-index > a {
+  background-size: cover;
+  width: 100%;
+  display: block;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.blog-index img {
   height: auto!important;
 }
-.blog-post .post-caption {
+.blog-index .post-caption {
   position: relative;
-  top: -73px;
-  background-color: #f6f6f6;
+  top: -130px;
+  background-color: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.blog-post .post-caption .post-title {
+.blog-index .post-caption .post-title {
   margin-bottom: 10px;
 }
-.blog-post .post-meta {
+.blog-index .post-meta {
   text-align: left;
   padding-left: 20px;
 }
+.blog-post {
+  position: relative;
+  top: 28px;
+}
+.blog-post .post-banner {
+  padding-top: 300px;
+  height: 440px;
+  background-size: cover;
+  background-position: center center;
+  vertical-align: top;
+}
+.blog-post .post-banner .post-title {
+  margin-top: 20px;
+  color: #ffffff;
+}
+.blog-post .post-body {
+  margin-top: 46px;
+}
 #direct-date {
   padding-bottom: 20px;
+  font-size: 19px;
+  color: #ffffff;
 }
 .wide-push1 {
   margin-left: 70px;
 }
 @media only screen and (max-width: 479px) {
-  .blog-post {
+  .blog-index {
     margin-top: -70px;
   }
   .wide-push1 {
@@ -904,7 +935,4 @@ footer {
 #navigation-header h1 {
   text-align: right;
   padding-right: 20px;
-}
-.post-title {
-  margin-top: 20px;
 }

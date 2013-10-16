@@ -4,12 +4,11 @@ title: "Words Pictures Ideas' Blog"
 published: true
 ---
 
-<div class="container clear">
-	<div class="left grid12 float-item main-container">
+<div class=" clear">
     {% for post in site.posts %}
-	    <div class="blog-post">
-	    	<a href="{{page.prefix}}{{ post.url }}"><img alt="pretty blog entry image" src="{{ post.header }}"></a>
-	    	<div class="post-caption">
+	    <div class="blog-index">
+	    	<a href="{{page.prefix}}{{ post.url }}"  style="background-image: url('{{ post.banner }}')"></a>
+	    	<div class="post-caption container">
 		      <a href="{{page.prefix}}{{ post.url }}">
 		      	<h2 class="post-title post-meta">{{ post.title  }}</h2>
 		      	<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
@@ -17,5 +16,4 @@ published: true
 		     </div>
 			</div>
     {% endfor %}
-	</div>
 </div>

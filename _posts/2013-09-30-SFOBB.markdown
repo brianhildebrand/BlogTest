@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "San Francisco-Oakland Bay Bridge"
-date: {}
+date: {30 September 2013}
 categories: infrastructure
 author: Jordona Jackson
 "author-initials": jj
 header: "http://fpoimg.com/940x350"
+banner: "http://placehold.it/1250x440&text=FPO"
 published: true
 ---
 

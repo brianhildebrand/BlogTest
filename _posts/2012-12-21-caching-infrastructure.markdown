@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Best Practice #1: Caching Infrastructure"
-date: {}
+date: {12 December 2012}
 categories: technology
 author: Brian VanderZanden
 "author-initials": bv
 header: "http://placekitten.com/940/350"
+banner: "http://placehold.it/1250x440/ffa500&text=FPO"
 published: true
 ---
 

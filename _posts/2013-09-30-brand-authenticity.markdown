@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Brand Authenticity and Corporate Social Responsibility (CSR)
-date: {}
+date: {30 September 2013}
 categories: branding
 author: Steve Barretto
 "author-initials": sb
-header: "http://fpoimg.com/940x350"
+banner: "http://placehold.it/1250x440&text=FPO"
 published: true
 ---
 

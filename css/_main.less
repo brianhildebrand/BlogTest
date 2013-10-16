@@ -2,6 +2,9 @@
 @dark-grey: #3b3636;
 @medium-grey:#bdbdbc;
 @light-grey:#f6f6f6;
+@white: #fff;
+
+@basefont: 14px;
 
 * {
   -webkit-box-sizing: border-box;
@@ -17,10 +20,12 @@ html {
 
 body {
   font-family: "proxima-nova",helvetica,sans-serif;
+  font-size: @basefont;
   margin: 0;
   padding: 0;
   font-weight: 400;
   height: 100%;
+
 }
 
 #page {
@@ -36,9 +41,8 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -53,7 +57,6 @@ a[href^=tel] {
 
 p {
   margin-top: 0;
-  font-size: .9em;
   line-height: 1.5em;
 }
 
@@ -380,6 +383,7 @@ input:focus,textarea:focus {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  //outline: green dashed;
 }
 
 .centered {
@@ -883,7 +887,7 @@ footer {
 }
 
 
-.blog-post{
+.blog-index{
   /*width:940px;*/
   /*height:350px;*/
   position: relative;
@@ -891,13 +895,25 @@ footer {
   &:first-of-type{
     margin-top:0px;
   }
+  a {
+    color: @white;
+  }
+  >a{
+      background-size:cover; 
+      width: 100%; 
+      display:block; 
+      height: 350px;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+  }
   img{
     height: auto!important;
   }
   .post-caption{
     position: relative;
-    top: -73px;
-    background-color: @light-grey;
+    top: -130px;
+    background-color: transparent;
     padding-top: 10px;
     padding-bottom: 10px;
     .post-title{
@@ -912,9 +928,38 @@ footer {
   }
 }
 
+.blog-post {
+  position: relative;
+  top: 28px;
+  .post-banner{
+    padding-top: 300px;
+    height: 440px;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+
+    .post-caption{
+
+
+    }
+    .post-title{
+      margin-top: 20px;
+      color: @white;
+    }
+  } 
+  .post-body {
+    margin-top: 46px;
+  }
+}
+
+
+
+
 
 #direct-date{
   padding-bottom: 20px;
+  font-size: 19px;
+  color: @white;
 }
 
 .wide-push1{
@@ -922,10 +967,9 @@ footer {
 }
 
 
-
 @media only screen and (max-width: 479px) {
 
-  .blog-post{
+  .blog-index{
     margin-top:-70px;
   }
   
@@ -1074,6 +1118,3 @@ footer {
   }
 }
 
-.post-title{
-  margin-top: 20px;
-}

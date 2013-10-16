@@ -2,18 +2,18 @@
 layout: default
 #prefix: "/b/_site"
 ---
-<div class="container clear">
-	<div class="left grid12 float-item main-container">
-		<img src="{{page.header}}" alt="page header graphic">
-		<div class="post-caption">
-    	<h2 class="post-title float-item post-meta">{{ page.title }}</h2>
-    	<p  id="direct-date" class="float-item post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
-   </div>
-		<div class="post">
-			<div class="left grid7 float-item">
+<div class="clear blog-post">
+	<div class="post-banner" style="background-image: url('{{ page.banner }}')">
+		<div class="post-caption container">
+	    	<h2 class="post-title">{{ page.title }}</h2>
+	    	<p  id="direct-date" class="post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
+    	</div> <!-- end post-caption -->
+	</div>
+    	<div class="post-body container clear">
+			<div class="left grid7 ">
 				{{ content }}
-			</div>
-			<div class="left  grid4 float-item wide-push1">
+			</div> <!-- end content -->
+			<div class="left grid4 float-item wide-push1 sidebar">
 				<div class="studio-member left grid2">
 					<div class="portrait-container">
 						<div class="portrait">
@@ -27,7 +27,7 @@ layout: default
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> <!-- end sidebar -->
 			<div class="left grid4 float-item wide-push1 bio">
 				<p>
 					{% case page.author-initials %}
@@ -50,6 +50,5 @@ layout: default
 					{% endcase %}
 				</p>
 			</div>
-		</div>
-	</div>
-</div>
+		</div> <!-- end post-body -->
+</div> <!-- end blog-post -->
