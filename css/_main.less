@@ -1,6 +1,7 @@
 /*Variables*/
 @dark-grey: #3b3636;
 @medium-grey:#bdbdbc;
+@bio-grey: #ebebeb;
 @light-grey:#f6f6f6;
 @white: #fff;
 
@@ -383,6 +384,7 @@ input:focus,textarea:focus {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 10px;
   //outline: green dashed;
 }
 
@@ -954,8 +956,6 @@ footer {
 
 
 
-
-
 #direct-date{
   padding-bottom: 20px;
   font-size: 19px;
@@ -966,11 +966,34 @@ footer {
   margin-left:70px;
 }
 
+.sidebar {
+  background: @bio-grey;
+
+}
+
+.sidebar .content {
+    padding: 25px;
+}
+
 
 @media only screen and (max-width: 479px) {
 
+
   .blog-index{
     margin-top:-70px;
+  }
+
+  .blog-post {
+    .post-banner{
+      position: relative;
+      .post-caption {
+        position: absolute;
+        bottom: 0;
+        h2 {
+          font-size: 19px;
+        }
+      }
+    }
   }
   
   .wide-push1{
@@ -993,6 +1016,10 @@ footer {
 
   .grid12,.grid9,.grid8,.grid7,.grid6,.grid5,.grid4,.grid3,.grid2,.grid1,.grid10 {
     width: 100%;
+  }
+
+  .sidebar.grid3{
+    width: 220px;
   }
 
   .two-column {
@@ -1117,4 +1144,6 @@ footer {
     padding-right:20px;
   }
 }
+
+
 
