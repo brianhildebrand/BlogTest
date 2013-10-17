@@ -317,7 +317,7 @@ textarea:focus {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  outline: green dashed;
+  padding: 0 10px;
 }
 .centered {
   text-align: center;
@@ -743,20 +743,23 @@ footer {
   margin: 100px 0;
 }
 .blog-index {
+  position: relative;
+  top: 28px;
+}
+.blog-entry {
   /*width:940px;*/
 
   /*height:350px;*/
 
   position: relative;
-  margin-top: -50px;
 }
-.blog-index:first-of-type {
+.blog-entry:first-of-type {
   margin-top: 0px;
 }
-.blog-index a {
+.blog-entry a {
   color: #ffffff;
 }
-.blog-index > a {
+.blog-entry > a {
   background-size: cover;
   width: 100%;
   display: block;
@@ -764,20 +767,20 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.blog-index img {
+.blog-entry img {
   height: auto!important;
 }
-.blog-index .post-caption {
+.blog-entry .post-caption {
   position: relative;
-  top: -130px;
+  top: 215px;
   background-color: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.blog-index .post-caption .post-title {
+.blog-entry .post-caption .post-title {
   margin-bottom: 10px;
 }
-.blog-index .post-meta {
+.blog-entry .post-meta {
   text-align: left;
   padding-left: 20px;
 }
@@ -807,9 +810,22 @@ footer {
 .wide-push1 {
   margin-left: 70px;
 }
+.sidebar {
+  background: #ebebeb;
+}
+.sidebar .content {
+  padding: 25px;
+}
 @media only screen and (max-width: 479px) {
-  .blog-index {
-    margin-top: -70px;
+  h2 {
+    font-size: 18px;
+  }
+  .blog-post .post-banner {
+    position: relative;
+  }
+  .blog-post .post-banner .post-caption {
+    position: absolute;
+    bottom: 0;
   }
   .wide-push1 {
     margin-left: 0px;
@@ -837,6 +853,9 @@ footer {
   .grid1,
   .grid10 {
     width: 100%;
+  }
+  .sidebar.grid3 {
+    width: 220px;
   }
   .two-column {
     -moz-column-count: 1;
