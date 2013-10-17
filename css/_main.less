@@ -42,7 +42,6 @@ h1 {
 }
 
 h2 {
-  text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 600;
@@ -894,40 +893,35 @@ footer {
   top: 28px;
 }
 
+.background-cover{
+  background-size:cover; 
+  background-position: center center;
+}
+
+.position-bottom{
+  position: relative;
+    height: 100%;
+    >div{
+      position: absolute;
+      bottom:0;
+    }
+}
 
 .blog-entry{
-  /*width:940px;*/
-  /*height:350px;*/
-  position: relative;
-
-  &:first-of-type{
-    margin-top:0px;
-  }
+  .background-cover;
+  height: 350px;
   a {
+    height: 100%;
     color: @white;
   }
   >a{
-      background-size:cover; 
-      width: 100%; 
       display:block; 
-      height: 350px;
-      background-repeat: no-repeat;
-      background-position: center center;
-
   }
   img{
     height: auto!important;
   }
   .post-caption{
-    position: relative;
-    top: 215px;
-    background-color: transparent;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    .post-title{
-      margin-bottom: 10px;
-    }
-    .post-author{}
+    .position-bottom;
   }
 
   .post-meta{
@@ -940,15 +934,10 @@ footer {
   position: relative;
   top: 28px;
   .post-banner{
-    padding-top: 300px;
     height: 440px;
-    background-size: cover;
-    background-position: center center;
-    vertical-align: top;
-
+    .background-cover;
     .post-caption{
-
-
+      .position-bottom;
     }
     .post-title{
       margin-top: 20px;
@@ -974,6 +963,8 @@ footer {
 
 .sidebar {
   background: @bio-grey;
+  position: relative;
+  top: -104px;
 
 }
 

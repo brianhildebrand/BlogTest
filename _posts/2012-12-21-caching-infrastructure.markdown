@@ -6,7 +6,7 @@ categories: technology
 author: Brian VanderZanden
 "author-initials": bv
 header: "http://placekitten.com/940/350"
-banner: "http://placehold.it/1250x440/ffa500&text=FPO"
+banner: "/img/banner/triangle-pattern.jpg"
 published: true
 ---
 

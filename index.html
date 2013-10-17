@@ -6,11 +6,13 @@ published: true
 
 <div class="blog-index clear">
 	{% for post in site.posts %}
-	<div class="blog-entry">
-		<a href="{{page.prefix}}{{ post.url }}"  style="background-image: url('{{ post.banner }}')">
+	<div class="blog-entry" style="background-image: url('{{ post.banner }}')">
+		<a href="{{page.prefix}}{{ post.url }}"  >
 			<div class="post-caption container">
-				<h2 class="post-title post-meta">{{ post.title  }}</h2>
-				<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
+				<div class="grid8">
+					<h2 class="post-title post-meta">{{ post.title  }}</h2>
+					<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
+				</div>
 			</div>
 		</a>
 	</div>

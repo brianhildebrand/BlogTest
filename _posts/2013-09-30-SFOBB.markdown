@@ -6,7 +6,7 @@ categories: infrastructure
 author: Jordona Jackson
 "author-initials": jj
 header: "http://fpoimg.com/940x350"
-banner: "http://placehold.it/1250x440&text=FPO"
+banner: "/img/banner/grid-pattern.jpg"
 published: true
 ---
 
