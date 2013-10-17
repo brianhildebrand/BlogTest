@@ -6,6 +6,7 @@
 @white: #fff;
 
 @basefont: 14px;
+@largefont: ceil(@basefont * 1.25); // ~18px
 
 * {
   -webkit-box-sizing: border-box;
@@ -888,8 +889,13 @@ footer {
   margin: 100px 0;
 }
 
-
 .blog-index{
+  position: relative;
+  top: 28px;
+}
+
+
+.blog-entry{
   /*width:940px;*/
   /*height:350px;*/
   position: relative;
@@ -914,7 +920,7 @@ footer {
   }
   .post-caption{
     position: relative;
-    top: -130px;
+    top: 150px;
     background-color: transparent;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -978,8 +984,11 @@ footer {
 
 @media only screen and (max-width: 479px) {
 
+  h2 {
+    font-size: @largefont;
+  }
 
-  .blog-index{
+  .blog-entry{
     margin-top:-70px;
   }
 
@@ -989,9 +998,7 @@ footer {
       .post-caption {
         position: absolute;
         bottom: 0;
-        h2 {
-          font-size: 19px;
-        }
+        
       }
     }
   }

@@ -4,16 +4,15 @@ title: "Words Pictures Ideas' Blog"
 published: true
 ---
 
-<div class=" clear">
-    {% for post in site.posts %}
-	    <div class="blog-index">
-	    	<a href="{{page.prefix}}{{ post.url }}"  style="background-image: url('{{ post.banner }}')"></a>
-	    	<div class="post-caption container">
-		      <a href="{{page.prefix}}{{ post.url }}">
-		      	<h2 class="post-title post-meta">{{ post.title  }}</h2>
-		      	<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
-		      </a>
-		     </div>
+<div class="blog-index clear">
+	{% for post in site.posts %}
+	<div class="blog-entry">
+		<a href="{{page.prefix}}{{ post.url }}"  style="background-image: url('{{ post.banner }}')">
+			<div class="post-caption container">
+				<h2 class="post-title post-meta">{{ post.title  }}</h2>
+				<p  class="post-author post-meta">{{ post.author | Capitalize }}</p>
 			</div>
-    {% endfor %}
+		</a>
+	</div>
+	{% endfor %}
 </div>

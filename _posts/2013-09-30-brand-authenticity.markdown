@@ -5,7 +5,7 @@ date: {30 September 2013}
 categories: branding
 author: Steve Barretto
 "author-initials": sb
-banner: "http://placehold.it/1250x440&text=FPO"
+banner: "http://placehold.it/1250x440/ffa500&&text=FPO"
 published: true
 ---
 
