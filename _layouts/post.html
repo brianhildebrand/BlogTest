@@ -7,7 +7,7 @@ layout: default
 		<div class="post-caption container">
 			<div class="grid8">
 	    	<h2 class="post-title">{{ page.title }}</h2>
-	    	<p  id="direct-date" class="post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
+	    	<p id="direct-date" class="post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
 	    </div>
     	</div> <!-- end post-caption -->
 	</div>
@@ -16,8 +16,8 @@ layout: default
 			{{ content }}
 		</div> <!-- end content -->
 
-		<div class="left float-item grid3 wide-push1 sidebar">
-			<img src="http://placehold.it/220&text=FPO"/>
+		<div class="left float-item grid3 grid3-sm wide-push1 sidebar">
+			<img src="http://placehold.it/220&text=FPO" class="img-responsive"/>
 			<div class="content">
 				<p>
 					{% case page.author-initials %}
