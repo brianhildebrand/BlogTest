@@ -384,8 +384,6 @@ input:focus,textarea:focus {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 10px;
-  //outline: green dashed;
 }
 
 .centered {
@@ -864,11 +862,10 @@ video {
 }
 
 footer {
+  margin-top: 28px;
   color: white;
   font-size: 14px;
   padding: 23px 0;
-  position: absolute;
-  bottom: 0;
   height: 80px;
   width: 100%;
 }
@@ -978,10 +975,15 @@ footer {
 }
 
 
-@media only screen and (min-width : 769px) and (max-width : 1023px) {
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
   .container{
-    max-width: 800px;
+  max-width: 800px;
+  padding: 0 10px!important;
   }
+
   .grid1  , .grid1-box {width:6.3%;}
   .grid2  , .grid2-box {width:14.6%;}
   .grid3  , .grid3-box {width:22.9%;}
@@ -995,22 +997,49 @@ footer {
   .grid11 , .grid11-box  {width:89.6%;}
   .grid12 , .grid12-box  {width:98%;}
 
+  .grid3-sm {width: 220px;}
+
+  .wide-push1{
+  margin-left:0px;
+  }
+
+
+  .float-item {
+  margin: 0 1%;
+  }
 
 }
 
-@media only screen and (min-width: 480px) and (max-width : 768px){
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+ .container{
+  padding: 0 10px!important;
+  }
   .grid12,.grid9,.grid8,.grid7,.grid6,.grid5,.grid4,.grid3,.grid2,.grid1,.grid10 {
     width: 100%;
   }
-    .grid3-sm {width: 220px;}
 
-  .wide-push1{
-    margin-left:0px;
-  }
+  .grid3-sm {width: 220px;}
+
   .sidebar {
-    top:0;
+    top: 0px;
   }
+  .float-item {
+    margin: 0 1%;
+    }
+
+    #copyright, #phone, #address{
+      text-align: center;
+      margin: 6px 0;
+    }
+
+    footer {
+      height: auto;
+    }
+
 }
+
 
 @media only screen and (max-width: 479px) {
 
@@ -1046,6 +1075,13 @@ footer {
     height: auto!important;
   }
 
+  footer {
+      height: auto;
+    }
+
+
+
+
   #video {
     display: none;
   }
@@ -1065,9 +1101,7 @@ footer {
     column-count: 1;
   }
 
-  .float-item {
-    margin: 0;
-  }
+
 
   .slide,.slideshow {
     min-height: 300px;
