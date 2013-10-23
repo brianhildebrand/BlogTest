@@ -503,12 +503,6 @@ input:focus,textarea:focus {
   font-weight: 600;
 }
 
-.title {
-  font-family: georgia;
-  font-style: italic;
-  font-size: .8em;
-}
-
 .portrait-container {
   position: relative;
   height: 100%;
@@ -885,10 +879,6 @@ footer {
   margin: 100px 0;
 }
 
-.blog-index{
-  position: relative;
-  top: 28px;
-}
 
 .background-cover{
   background-size:cover; 
@@ -903,6 +893,46 @@ footer {
       bottom:0;
     }
 }
+
+
+/* Brand */
+
+
+#navigation-header{
+  width:100%;
+  position: relative;
+  h1{
+    padding-right:20px;
+    margin: 0;
+    background-image: url('/img/brand.svg');
+    background-repeat: no-repeat;
+    background-position: 0 28px;
+    width: 350px;
+    height: 85px;
+      text-indent: -9999px;
+  }
+  a{
+    width: 100%;
+    height: 100%;
+    display: block; 
+  }
+  h2{
+    float: right;
+    height: 85px;
+    font-size: @basefont;
+    font-weight: 400;
+    margin: 0;
+    a{
+      width: 100%;
+      height: 100%;
+      padding-top: 50px;
+      padding-right: 40px;
+      padding-left: 40px;
+      display: block;
+    }
+  }
+}
+
 
 .blog-entry{
   .background-cover;
@@ -927,9 +957,7 @@ footer {
   }
 }
 
-.blog-post {
-  position: relative;
-  top: 28px;
+.blog {
   .post-banner{
     height: 440px;
     .background-cover;
@@ -1205,17 +1233,6 @@ footer {
 }
 
 
-
-#navigation-header{
-  position:fixed;
-  z-index: 102;
-  background-color:@light-grey;
-  width:100%;
-  h1{
-    text-align: right;
-    padding-right:20px;
-  }
-}
 
 
 

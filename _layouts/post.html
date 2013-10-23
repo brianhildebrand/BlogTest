@@ -2,16 +2,16 @@
 layout: default
 #prefix: "/b/_site"
 ---
-<div class="clear blog-post">
+<div class="blog clear">
 	<div class="post-banner" style="background-image: url('{{ page.banner }}')">
 		<div class="post-caption container">
 			<div class="grid8">
-	    	<h2 class="post-title">{{ page.title }}</h2>
-	    	<p id="direct-date" class="post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
-	    </div>
+		    	<h2 class="post-title">{{ page.title }}</h2>
+		    	<p id="direct-date" class="post-meta">{{ page.date | date: " %A, %B %d, %Y"}}</p>
+	    	</div> <!-- end grid -->
     	</div> <!-- end post-caption -->
-	</div>
-	<div class="post-body container clear">
+	</div> <!-- end post-banner -->
+	<div class="post-body clear container">
 		<div class="left grid8">
 			{{ content }}
 		</div> <!-- end content -->
@@ -39,46 +39,7 @@ layout: default
 						{% include bio/dd.html %}&nbsp;
 					{% endcase %}
 				</p>
-			</div>
-		</div>
-
-		<!--
-		<div class="left grid4 float-item wide-push1 sidebar">
-			<div class="studio-member left grid2">
-				<div class="portrait-container">
-					<div class="portrait">
-						<div class="face front">
-							<img width="150" height="150" src="{{ page.prefix}}/img/people/{{page.author-initials}}.jpg" class="attachment-full wp-post-image" alt="{{page.author}}" title="{{page.author}}"/>
-						</div>
-						<div class="face back dark-grey">
-							<div class="name centered">{{page.author | Capitalize }}</div>
-							<div class="title centered"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> 
-		<div class="left grid4 float-item wide-push1 bio">
-			<p>
-				{% case page.author-initials %}
-				{% when 'bv' %}
-					{% include bio/bv.html %}&nbsp;
-				{% when 'sb' %}
-					{% include bio/sb.html %}&nbsp;
-				{% when 'jj' %}
-					{% include bio/jj.html %}&nbsp;
-				{% when 'ak' %}
-					{% include bio/ak.html %}&nbsp;
-				{% when 'ah' %}
-					{% include bio/ah.html %}&nbsp;
-				{% when 'bh' %}
-					{% include bio/bh.html %}&nbsp;
-				{% when 'br' %}
-					{% include bio/br.html %}&nbsp;
-				{% when 'dd' %}
-					{% include bio/dd.html %}&nbsp;
-				{% endcase %}
-			</p>
-		</div>  -->
+			</div> <!-- content -->
+		</div> <!-- end sidebar -->
 	</div> <!-- end post-body -->
-</div> <!-- end blog-post -->
+</div> <!-- end blog -->
