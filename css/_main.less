@@ -896,7 +896,6 @@ position:relative;
     padding-right:20px;
     margin: 0;
     background-image: url('/img/brand.svg');
-    background-image:  none,url('/img/brand.svg'), url('/img/brand.png');
     background-repeat: no-repeat;
     background-position: 0 28px;
     width: 350px;
@@ -923,6 +922,10 @@ position:relative;
       display: block;
     }
   }
+}
+
+.ie8 #navigation-header h1{
+    background-image: url('/img/brand.png');
 }
 
 .blog-entry{
