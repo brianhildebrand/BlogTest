@@ -896,6 +896,7 @@ position:relative;
     padding-right:20px;
     margin: 0;
     background-image: url('/img/brand.svg');
+    background-image:  none,url('/img/brand.svg'), url('/img/brand.png');
     background-repeat: no-repeat;
     background-position: 0 28px;
     width: 350px;
@@ -924,7 +925,6 @@ position:relative;
   }
 }
 
-
 .blog-entry{
   .background-cover;
   height: 350px;
@@ -949,6 +949,7 @@ position:relative;
 }
 
 .blog {
+  padding-bottom: 80px;
   .post-banner{
     height: 440px;
     .background-cover;
@@ -962,7 +963,6 @@ position:relative;
   } 
   .post-body {
     margin-top: 46px;
-    margin-bottom: 80px;
   }
 }
 
@@ -996,15 +996,13 @@ position:relative;
 
 
 footer {
-margin-top: 28px;
-color: white;
-font-size: 14px;
-padding: 23px 0;
-height: 80px;
-width: 100%;
-position:absolute;
-bottom:0;
-left:0;
+  color: white;
+  padding: 23px 0;
+  height: 80px;
+  width: 100%;
+  position:absolute;
+  bottom:0;
+  left:0;
 }
 
 #phone {
@@ -1050,6 +1048,10 @@ left:0;
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
+
+  .blog {
+      padding-bottom: 130px;
+  }
 
  .container{
   padding: 0 10px!important;
