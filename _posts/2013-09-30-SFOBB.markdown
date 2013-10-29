@@ -5,8 +5,7 @@ date: {30 September 2013}
 categories: infrastructure
 author: Jordona Jackson
 "author-initials": jj
-header: "http://fpoimg.com/940x350"
-banner: "/img/banner/grid-pattern.jpg"
+banner: "/img/2013/10/bay-bridge.jpg"
 published: true
 ---
 

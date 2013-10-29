@@ -6,7 +6,7 @@ categories: technology
 author: Brian VanderZanden
 "author-initials": bv
 header: "http://placekitten.com/940/350"
-banner: "/img/banner/triangle-pattern.jpg"
+banner: "/img/banner/ellipse-pattern.jpg"
 published: true
 ---
 

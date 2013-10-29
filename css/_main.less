@@ -43,7 +43,7 @@ h1 {
 
 h2 {
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 600;
 }
 
@@ -870,14 +870,6 @@ video {
   background-position: center center;
 }
 
-.position-bottom{
-  position: relative;
-    height: 100%;
-    >div{
-      position: absolute;
-      bottom:0;
-    }
-}
 
 /* Blog */
 
@@ -933,6 +925,18 @@ h3 {
     background-image: url('/img/brand.png');
 }
 
+.post-caption{
+  position: relative;
+  p{
+    font-size: @largefont;
+  }
+  height: 100%;
+  >div{
+    position: absolute;
+    bottom:0;
+  }
+}
+
 .blog-entry{
   .background-cover;
   height: 350px;
@@ -946,10 +950,6 @@ h3 {
   img{
     height: auto!important;
   }
-  .post-caption{
-    .position-bottom;
-  }
-
   .post-meta{
     text-align: left;
     padding-left: 20px;
@@ -961,9 +961,6 @@ h3 {
   .post-banner{
     height: 440px;
     .background-cover;
-    .post-caption{
-      .position-bottom;
-    }
     .post-title{
       margin-top: 20px;
       color: @white;
@@ -975,10 +972,8 @@ h3 {
 }
 
 
-
 #direct-date{
   padding-bottom: 20px;
-  font-size: 19px;
   color: @white;
 }
 
@@ -1071,11 +1066,11 @@ footer {
   .grid3-sm {width: 220px;}
 
   #navigation-header h2{
-    text-align: center;
-    float: left;
+    float: none;
     height: 40px;
     a{
       padding-top: 5px;
+      padding-left: 0;
     }
   }
 
@@ -1104,9 +1099,6 @@ footer {
     width: 100%;
   }
 
-  h2 {
-    font-size: @largefont;
-  }
 
   .blog-post {
     .post-banner{

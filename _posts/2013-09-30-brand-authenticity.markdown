@@ -5,7 +5,7 @@ date: {30 September 2013}
 categories: branding
 author: Steve Barretto
 "author-initials": sb
-banner: "/img/banner/ellipse-pattern.jpg"
+banner: "/img/2013/10/lego-people.jpg"
 published: true
 ---
 
