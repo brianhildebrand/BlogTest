@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "San Francisco-Oakland Bay Bridge"
-date: {30 September 2013}
+date: 
+  30 September 2013: null
 categories: infrastructure
 author: Jordona Jackson
 "author-initials": jj
