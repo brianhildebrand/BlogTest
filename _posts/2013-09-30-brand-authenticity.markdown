@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Brand Authenticity and Corporate Social Responsibility (CSR)
-date: {30 September 2013}
+date: 
+  30 September 2013: null
 categories: branding
 author: Steve Barretto
 "author-initials": sb
@@ -30,9 +31,5 @@ It's natural that we align ourselves and gravitate toward entities that share co
 
 The problem is that most efforts at CSR may go unnoticed due to the pace of business or the lack of internal communications infrastructure that would identify them as an organizational value.
 
-The journey is the reward
+###The journey is the reward
 It takes courage to uncover and reveal what is true, and even more courage to broadcast your truths to the public. The inevitable misstep is certain, how we recover is the measure of our growth, progress and authenticity.
-
-
-
-
