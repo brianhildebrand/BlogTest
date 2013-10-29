@@ -6,7 +6,7 @@ date:
 categories: infrastructure
 author: Jordona Jackson
 "author-initials": jj
-banner: "/img/2013/10/bay-bridge.jpg"
+banner: "/img/2013/10/opt/bay-bridge.jpg"
 published: true
 ---
 
