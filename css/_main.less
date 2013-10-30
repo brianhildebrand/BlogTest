@@ -870,7 +870,6 @@ video {
   background-position: center center;
 }
 
-
 /* Blog */
 
 .site {
@@ -902,7 +901,6 @@ blockquote {
 
 
 #navigation-header{
-  width:100%;
   position: relative;
   h1{
     padding-right:20px;
@@ -1073,6 +1071,7 @@ footer {
 
  .container{
   padding: 0 10px!important;
+  max-width: 100%;
   }
   .grid12,.grid9,.grid8,.grid7,.grid6,.grid5,.grid4,.grid3,.grid2,.grid1,.grid10 {
     width: 100%;
@@ -1109,7 +1108,9 @@ footer {
 
 
 @media only screen and (max-width: 479px) {
-
+  .container {
+    max-width: 100%;
+  }
 
   .grid12,.grid9,.grid8,.grid7,.grid6,.grid5,.grid4,.grid3,.grid2,.grid1,.grid10 {
     width: 100%;
