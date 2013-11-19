@@ -987,7 +987,6 @@ blockquote {
   }
 }
 
-
 #direct-date{
   padding-bottom: 20px;
   color: @white;
@@ -998,10 +997,9 @@ blockquote {
 }
 
 .sidebar {
-  background: @bio-grey;
-  position: relative;
-  top: -104px;
-
+	position: relative;
+	top: -104px;
+	background: @bio-grey;
 }
 
 .sidebar .content {
@@ -1015,13 +1013,13 @@ blockquote {
 
 
 footer {
-  color: white;
-  padding: 23px 0;
-  height: 80px;
-  width: 100%;
-  position:absolute;
-  bottom:0;
-  left:0;
+	color: white;
+	padding: 23px 0;
+	height: 80px;
+	width: 100%;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 #phone {
@@ -1030,6 +1028,37 @@ footer {
 
 #address {
   text-align: right;
+}
+
+#sharing-container{
+	border-top: 1px solid;
+	padding-top: 20px;
+	margin:40px auto;
+}
+
+.social-share{
+	display: block;
+	float: left;
+	height: 36px;
+	width: 36px;
+	margin-right: 40px;
+	padding-top: 44px;
+	font-size: .9em;
+	text-align: center;
+}
+
+#twitter-share{
+	background: url(/img/social-sharing.png) no-repeat -56px -7px;
+	&:hover{
+		background: url(/img/social-sharing.png) no-repeat -56px -62px;
+	}
+}
+
+#facebook-share{
+	background: url(/img/social-sharing.png) no-repeat -5px -5px;
+	&:hover{
+		background: url(/img/social-sharing.png) no-repeat -5px -60px;
+	}
 }
 
 
@@ -1149,18 +1178,9 @@ footer {
 
     }
 
-
-
-
-  #video {
-    display: none;
-  }
-
- 
-
-  .sidebar.grid3{
-    width: 220px;
-  }
+	#video {
+		display: none;
+	}
 
   .two-column {
     -moz-column-count: 1;

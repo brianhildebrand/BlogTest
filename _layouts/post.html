@@ -14,6 +14,10 @@ layout: default
 	<div class="post-body clear container">
 		<div class="left grid8">
 			{{ content }}
+			<div id="sharing-container" class="clear">
+				<a id="twitter-share" class="social-share twitter-share-button" href="https://twitter.com/share?url={{page.prefix}}{{ post.url }}" target="_blank">Tweet</a>
+				<a id="facebook-share" class="social-share" href="https://www.facebook.com/sharer/sharer.php?u={{page.prefix}}{{ post.url }}" target="_blank">Share</a>
+			</div>
 		</div> <!-- end content -->
 
 		<div class="left float-item grid3 grid3-sm wide-push1 sidebar">
