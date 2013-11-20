@@ -1,6 +1,7 @@
 ---
 layout: default
 #prefix: "/b/_site"
+domain: "http://blog.wordspicturesideas.com"
 ---
 <div class="blog clear">
 	<div class="post-banner" style="background-image: url('{{ page.banner }}')">
@@ -15,8 +16,8 @@ layout: default
 		<div class="left grid8">
 			{{ content }}
 			<div id="sharing-container" class="clear">
-				<a id="twitter-share" class="social-share twitter-share-button" href="https://twitter.com/share?url={{page.prefix}}{{ post.url }}" target="_blank">Tweet</a>
-				<a id="facebook-share" class="social-share" href="https://www.facebook.com/sharer/sharer.php?u={{page.prefix}}{{ post.url }}" target="_blank">Share</a>
+				<a id="twitter-share" class="social-share twitter-share-button" href="https://twitter.com/share?url={{ page.domain }}{{ page.url }}" target="_blank">Tweet</a>
+				<a id="facebook-share" class="social-share" href="https://www.facebook.com/sharer/sharer.php?u={{ page.domain }}{{ page.url }}" target="_blank">Share</a>
 			</div>
 		</div> <!-- end content -->
 
