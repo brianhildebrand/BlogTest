@@ -15,13 +15,13 @@ While our closest friends and clients would receive a beautiful, hand drawn card
 
 The question of documentation is an ever-present dilemma for designers and this project was no different. A slideshow or flat grid seemed like the default fallback, but clicking through such a mass of imagery seemed like such a tedious task. The technologists in the shop had, for some time, been itching to build something using webGL, a javascript API that allows for the construction of three-dimensional projects such as Arcade Fire’s [The Wilderness](http://thewildernessdowntown.com/ "The Wilderness"). We built a few explorative prototypes and decided on an idea that mapped the drawings onto 3D typography which itself would be comprised of cubes, or “pixels”, accounting for each of the drawings. The verb “MAKE” felt appropriate because it tied together our own actions with those of the art class.
 
-![Perspective 1](/img/post/perspective1.jpg "Perspective 1")
+![Perspective 1](/img/post/make-perspective1.jpg "Perspective 1")
 
 Over the course of iteration, something more formal transformed into inhabitable space. Tying the model to a set of orbit controls using the orbitcontrols.js library created a fluid navigation similar to what you’d use in a program like SketchUp. The resulting behavior allowed for the generation of infinite perspectives and graphic representations of the work.
 
-![Perspective 1](/img/post/perspective2.jpg "Perspective 2")
+![Perspective 1](/img/post/make-perspective2.jpg "Perspective 2")
 
-![Perspective 1](/img/post/perspective3.jpg "Perspective 3")
+![Perspective 1](/img/post/make-perspective3.jpg "Perspective 3")
 
 The relationship between digital media and three dimensional effect often walks the line between being tasteful and tacky, as well as runs the risk of being not much more than a gimmick. That said, new libraries such as [three.js](http://threejs.org/ "Three.js") allow designers to create fundamentally different experiences. 
 
