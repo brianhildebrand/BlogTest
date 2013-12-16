@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MAKE!: Art Class & WebGL
+title: "MAKE!: Art Class & WebGL"
 date: {16 December 2013}
 categories: technology
 author: Brian Hildebrand
