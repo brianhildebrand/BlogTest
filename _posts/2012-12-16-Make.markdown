@@ -13,7 +13,7 @@ When it came time for sending out holiday cards we wondered if we couldn’t use
 
 While our closest friends and clients would receive a beautiful, hand drawn card in the mail, the artwork was so rad that we wanted to share it with everyone. The best way of doing this, we thought, was by featuring them on our website. 
 
-The question of documentation is an ever-present dilemma for designers and this project was no different. A slideshow or flat grid seemed like the default fallback, but clicking through such a mass of imagery seemed like such a tedious task. The technologists in the shop had, for some time, been itching to build something using webGL, a javascript API that allows for the construction of three-dimensional projects such as Arcade Fire’s [The Wilderness](http://thewildernessdowntown.com/ "The Wilderness"). We built a few explorative prototypes and decided on an idea that mapped the drawings onto 3D typography which itself would be comprised of cubes, or “pixels”, accounting for each of the drawings. The verb “MAKE” felt appropriate because it tied together our own actions with those of the art class.
+The question of documentation is an ever-present dilemma for designers and this project was no different. A slideshow or flat grid seemed like the default fallback, but clicking through such a mass of imagery seemed like such a tedious task. The technologists in the shop had, for some time, been itching to build something using webGL, a javascript API that allows for the construction of three-dimensional projects such as Arcade Fire’s <a href="http://thewildernessdowntown.com/" target="_blank" alt="The Wilderness">The Wilderness</a>. We built a few explorative prototypes and decided on an idea that mapped the drawings onto 3D typography which itself would be comprised of cubes, or “pixels”, accounting for each of the drawings. The verb “MAKE” felt appropriate because it tied together our own actions with those of the art class.
 
 ![Perspective 1](/img/post/make-perspective1.jpg "Perspective 1")
 
@@ -27,7 +27,18 @@ The relationship between digital media and three dimensional effect often walks 
 
 We thank the students again for what they handed back to us and hope they enjoy playing with what we’ve built. 
 
-You can check out our code on [github](https://github.com/WordsPicturesIdeas/MAKE-3D/ "Make Git Repository").
+You can see the project on our <a href="http://wordspicturesideas.com" alt="Make">home page</a> or check out our code on <a href="https://github.com/WordsPicturesIdeas/MAKE-3D/" target="_blank" alt="Make Git Repository">github</a>.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
