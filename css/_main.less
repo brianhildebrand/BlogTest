@@ -9,11 +9,11 @@
 @largefont: ceil(@basefont * 1.25); // ~18px
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  text-rendering: optimizeLegibility!important;
-  -webkit-font-smoothing: antialiased!important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility!important;
+	-webkit-font-smoothing: antialiased!important;
 }
 
 html {
@@ -910,7 +910,7 @@ blockquote {
     margin: 0;
     background-image: url('/img/brand.svg');
     background-repeat: no-repeat;
-    background-position: 0 28px;
+    background-position: -3px 28px;
     height: 85px;
       text-indent: -9999px;
   }
@@ -972,7 +972,7 @@ blockquote {
 }
 
 .blog {
-  padding-bottom: 126px;
+  padding-bottom: 80px;
   .post-banner{
     height: 440px;
     .background-cover;
@@ -1101,19 +1101,28 @@ footer {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
 
-  .blog {
-      padding-bottom: 176px;
-  }
+	.blog {
+		padding-bottom: 133px;
+		.post-caption{
+			margin:0 20px;
+		}
+		.post-body{
+			padding:20px;
+		}
+	}
 
  .container{
-  padding: 0 10px!important;
-  max-width: 100%;
+  	max-width: 100%;
   }
   .grid12,.grid9,.grid8,.grid7,.grid6,.grid5,.grid4,.grid3,.grid2,.grid1,.grid10 {
     width: 100%;
   }
 
   .grid3-sm {width: 220px;}
+
+	#navigation-header{
+		padding:0 20px;
+	}
 
   #navigation-header h2{
     float: none;
@@ -1128,7 +1137,7 @@ footer {
     top: 0px;
   }
   .float-item {
-    margin: 0 1%;
+    margin: 0;
     }
 
     #copyright, #phone, #address{
@@ -1191,8 +1200,6 @@ footer {
     -webkit-column-count: 1;
     column-count: 1;
   }
-
-
 
   .slide,.slideshow {
     min-height: 300px;
